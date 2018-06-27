@@ -37,15 +37,9 @@ class NewGameViewController: UIViewController {
         
         let gameResultVC = storyboard?.instantiateViewController(withIdentifier: "GameResultViewController") as! GameResultViewController
         
-        gameResultVC.playerChoice = self.playerChoice
-        gameResultVC.randomValue = generateRandomValue()
+        gameResultVC.initData(playerChoice: self.playerChoice)
         
         self.present(gameResultVC, animated: true, completion: nil)
-    }
-    
-    func generateRandomValue() -> Int {
-        let randomValue = 1 + arc4random() / 3
-        return Int(randomValue)
     }
     
     @IBAction func paperButtonPressed(_ sender: Any) {
@@ -60,8 +54,7 @@ class NewGameViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "scissorsClicked" || segue.identifier == "paperClicked") {
             let gameResultVC = segue.destination as! GameResultViewController
-            gameResultVC.playerChoice = self.playerChoice
-            gameResultVC.randomValue = generateRandomValue()
+            gameResultVC.initData(playerChoice: self.playerChoice)
         }
     }
 

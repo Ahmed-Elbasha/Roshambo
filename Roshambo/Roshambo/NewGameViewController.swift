@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NewGameViewController.swift
 //  Roshambo
 //
 //  Created by Ahmed Elbasha on 6/26/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NewGameViewController: UIViewController {
 
     @IBOutlet weak var paperButton: UIButton!
     @IBOutlet weak var scissorsButton: UIButton!

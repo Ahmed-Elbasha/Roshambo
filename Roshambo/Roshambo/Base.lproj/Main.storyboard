@@ -26,6 +26,7 @@
                                 </constraints>
                                 <state key="normal" image="scissors"/>
                                 <connections>
+                                    <action selector="scissorsbuttonWasPresssed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EIX-Wh-vFN"/>
                                     <segue destination="UBy-85-WZ3" kind="presentation" identifier="scissorsClicked" id="hh4-14-Buy"/>
                                 </connections>
                             </button>
@@ -84,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
         </scene>
-        <!--View Controller-->
+        <!--Game Result View Controller-->
         <scene sceneID="Ab7-zI-3gz">
             <objects>
-                <viewController id="UBy-85-WZ3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GameResultViewController" id="UBy-85-WZ3" customClass="GameResultViewController" customModule="Roshambo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uA1-3G-ERW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,6 +136,6 @@
         <image name="scissors" width="75" height="65"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hh4-14-Buy"/>
+        <segue reference="ES3-de-7tp"/>
     </inferredMetricsTieBreakers>
 </document>

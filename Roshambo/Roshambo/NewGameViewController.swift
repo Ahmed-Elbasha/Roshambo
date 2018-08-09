@@ -14,6 +14,8 @@ class NewGameViewController: UIViewController {
     @IBOutlet weak var scissorsButton: UIButton!
     @IBOutlet weak var rockButton: UIButton!
     
+    var gameHistory: [String]!
+    
     enum PlayerChoice : Int {
         case choicePaper = 1,
          choiceRock = 2,
@@ -55,6 +57,8 @@ class NewGameViewController: UIViewController {
         if (segue.identifier == "scissorsClicked" || segue.identifier == "paperClicked") {
             let gameResultVC = segue.destination as! GameResultViewController
             gameResultVC.initData(playerChoice: self.playerChoice)
+        } else if segue.identifier == "SegueToHistoryViewController" {
+            let historyVC = segue.destination as! HistoryViewController
         }
     }
 

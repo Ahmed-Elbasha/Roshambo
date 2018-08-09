@@ -64,7 +64,7 @@
                                     <navigationItem id="18Q-I7-RCX">
                                         <barButtonItem key="rightBarButtonItem" title="History" id="U9a-Nw-AnM">
                                             <connections>
-                                                <segue destination="jmB-hZ-Y2t" kind="presentation" id="w8P-cr-BU0"/>
+                                                <segue destination="jmB-hZ-Y2t" kind="presentation" identifier="SegueToHistoryViewController" id="w8P-cr-BU0"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -100,7 +100,7 @@
         <!--History View Controller-->
         <scene sceneID="4zP-bp-uci">
             <objects>
-                <viewController id="jmB-hZ-Y2t" customClass="HistoryViewController" customModule="Roshambo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HistoryViewController" id="jmB-hZ-Y2t" customClass="HistoryViewController" customModule="Roshambo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TKo-wY-Sid">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

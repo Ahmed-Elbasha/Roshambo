@@ -13,6 +13,7 @@ class GameResultViewController: UIViewController {
     @IBOutlet weak var resultImageView: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!
     
+    var match: RPSMatch!
     var playerChoice : Int = 0
     
     override func viewDidLoad() {
@@ -61,8 +62,9 @@ class GameResultViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func initData(playerChoice: Int) -> Void {
+    func initData(playerChoice: Int, match: RPSMatch) -> Void {
         self.playerChoice = playerChoice
+        self.match = match
     }
     
     @IBAction func playAgainButtonWasPressed(_ sender: Any) {

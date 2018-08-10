@@ -10,6 +10,7 @@
 		7E6B78EF20E3CFC000B9AE2D /* GameResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B78EE20E3CFBF00B9AE2D /* GameResultViewController.swift */; };
 		7E7EEAFF211C63CF00483007 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EEAFE211C63CF00483007 /* HistoryViewController.swift */; };
 		7E7EEB01211C70DF00483007 /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EEB00211C70DF00483007 /* RPS.swift */; };
+		7E7EEB03211C79EB00483007 /* RPSMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EEB02211C79EB00483007 /* RPSMatch.swift */; };
 		7E89A16020E2399B00A36978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89A15F20E2399B00A36978 /* AppDelegate.swift */; };
 		7E89A16220E2399B00A36978 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89A16120E2399B00A36978 /* NewGameViewController.swift */; };
 		7E89A16520E2399B00A36978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E89A16320E2399B00A36978 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		7E6B78EE20E3CFBF00B9AE2D /* GameResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultViewController.swift; sourceTree = "<group>"; };
 		7E7EEAFE211C63CF00483007 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		7E7EEB00211C70DF00483007 /* RPS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPS.swift; sourceTree = "<group>"; };
+		7E7EEB02211C79EB00483007 /* RPSMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSMatch.swift; sourceTree = "<group>"; };
 		7E89A15C20E2399B00A36978 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E89A15F20E2399B00A36978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E89A16120E2399B00A36978 /* NewGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				7E89A16820E239A200A36978 /* LaunchScreen.storyboard */,
 				7E89A16B20E239A200A36978 /* Info.plist */,
 				7E7EEB00211C70DF00483007 /* RPS.swift */,
+				7E7EEB02211C79EB00483007 /* RPSMatch.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				7E89A16220E2399B00A36978 /* NewGameViewController.swift in Sources */,
 				7E89A16020E2399B00A36978 /* AppDelegate.swift in Sources */,
 				7E6B78EF20E3CFC000B9AE2D /* GameResultViewController.swift in Sources */,
+				7E7EEB03211C79EB00483007 /* RPSMatch.swift in Sources */,
 				7E7EEAFF211C63CF00483007 /* HistoryViewController.swift in Sources */,
 				7E7EEB01211C70DF00483007 /* RPS.swift in Sources */,
 			);
